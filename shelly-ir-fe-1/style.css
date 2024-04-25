@@ -1,0 +1,138 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: 'Helvetica';
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Main content section */
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact information */
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Skills section */
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Work and education sections */
+.experience, .education {
+    margin-top: 20px;
+}
+
+.experience h2, .education h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Define link styles */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tooltip styles */
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 9999;
+}
+
+/* Style for certification logos */
+.certifications img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    vertical-align: middle; /* Align the image vertically in the list item */
+    margin-right: 10px; /* Add some spacing between the logo and text */
+}
+.skills img{
+    max-width: 50px; /* Adjust the maximum width as needed */
+    vertical-align: middle; /* Align the image vertically in the list item */
+    margin-right: 10px; /* Add some spacing between the logo and text */
+}
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+/* Additional styles can be added as needed */
+
