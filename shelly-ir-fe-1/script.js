@@ -1,4 +1,4 @@
-const API_ENDPOINT = 'https://3phxwaphpj.execute-api.us-east-1.amazonaws.com/PROD/shelly-ir-api1-telem1'
+const API_ENDPOINT = 'https://apigatewayendpointhere'
 
 document.getElementById('uploadButton').addEventListener('click', function() {
     var fileInput = document.getElementById('csvtelemfile');
